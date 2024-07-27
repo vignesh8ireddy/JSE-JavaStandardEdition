@@ -107,3 +107,13 @@ public class C06StaticVariables {
         SV1.displayIVariables();// 10 20 30
     }
 }
+
+/*
+can static blocks call:
+	static variables ✔ 
+	static methods ✔ 
+	non static variables ❌ 
+	non static methods ❌ 
+but you can create an instance for the class and call non static variables and non static methods 
+same goes with static methods calling non static members.(That's what you do with main method in java)
+*/
