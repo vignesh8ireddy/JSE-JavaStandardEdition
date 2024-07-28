@@ -1,6 +1,8 @@
 public class C03Constructor {
 
     /*
+	 The main use of a constructor is to avoid setter methods
+
 	 If you didn't provide ANY constructor in for a class then JVM
 	 by would call the default parameterless constructor.
 

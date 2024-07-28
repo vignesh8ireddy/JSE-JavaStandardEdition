@@ -10,6 +10,9 @@ public class C00TestMain {
         C02ClassBasics C02Obj = new C02ClassBasics();
         C02Obj.showVariables();
 
+        System.out.println("\n-----------------------------C07KeywordFinal");
+        new C07KeywordFinal();
+
     }
 
 }

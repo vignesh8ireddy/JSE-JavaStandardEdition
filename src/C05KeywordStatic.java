@@ -108,3 +108,5 @@ public class C05KeywordStatic {
 	*/
 
 }// refer: https://www.geeksforgeeks.org/class-loading-and-static-blocks-execution-using-static-modifier-in-java/
+
+
