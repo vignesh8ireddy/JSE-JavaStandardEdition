@@ -145,6 +145,7 @@ Standard Steps followed for developing JDBC(JDBC4.X) Application
 
  */
 
+
 public class C23JDBC {
 
     public static void main(String[] args) throws SQLException {
