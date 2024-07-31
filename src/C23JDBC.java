@@ -145,7 +145,6 @@ Standard Steps followed for developing JDBC(JDBC4.X) Application
 
  */
 
-
 public class C23JDBC {
 
     public static void main(String[] args) throws SQLException {
@@ -204,6 +203,9 @@ public class C23JDBC {
         System.out.println("Statement closed successfully");
         connectObj.close();
         System.out.println("Connection closed successfully");
+
+        JDBC2 newObj = new JDBC2();
+        newObj.jdbc2();
 
     }
 
@@ -297,3 +299,160 @@ public class C23JDBC {
 
 
 */
+
+class JDBC2{
+
+    /*
+     whenever you are using the same code again and again, you better put the code in separate methods
+     and put those methods in separate class and use those by importing
+     */
+
+
+    /*
+
+     Problem with Statement Object
+     -----------------------------
+
+     Statement stmt =  con.createStatement();
+     ResultSet rs  = stmt.exectueQuery("select * from student");
+
+     If we use Statement Object, same query will be compiled every time and the query should
+     be executed everytime,this would create performance problems.
+     eg: IRCTC App(select query), BMS APP(select query)
+
+     PreparedStatement Object
+     ---------------------------
+     To resolve the above problem don't use Statement Object, use "PreparedStatement(Pre-CompiledStatement)".
+
+     In case of PreparedStatement, the query will be compiled only once even though we
+     are executing it multiple times with change or no change in inputs.
+     This would increase the overall performance.
+
+     signature:
+
+     public PreparedStatement prepareStatement(String sqlQuery) throws SQLException
+
+     //Establish the connection
+     Connection con = DriverManger.getConnection(url,username,password);
+
+     //Creating a precompiled query which is used at the runtime to execute with the value
+     String sqlSelectQuery = "select sid,sname,sage,saddr from student where sid = ?";
+
+     PreparedStatement pstmt = con.prepareStatement(sqlSelectQuery);
+
+     At this line, sqlquery will be sent to database, DatabaseEngine will compile the query and stores in database.
+     That precompiled query will be sent to the java application in the form of "PreparedStatement" Object.
+     Hence PreparedStatement Object is called "PreCompiledQuery" object.
+
+     // Execute the PreCompiledQuery by setting the inputs
+     Integer sid = 10;
+     pstmt.setInt(1,sid);
+     ResultSet resultSet = pstmt.executeQuery();
+     //process the resultSet
+     pstmt.setInt(1,100);
+     ResultSet resultSet = pstmt.executeQuery();
+
+     Whenever we execute methods, databasengine will not compile query once again and it
+     will directly execute that query, so that overall performance will be improved
+
+     Note:
+     String sqlQuery= insert into student(`sid`,`sname`,`sage`,`saddres`) values(?,?,?,?);
+     PreparedStatement pstmt = con.prepareStatement(sqlQuery);
+     pstmt.setInt(1,10);
+     pstmt.setString(2,"sachin");
+     pstmt.setInt(3,45);
+     pstmt.setString(4,"MI");
+     int rowCount = pstmt.executeUpdate();
+
+     KeyPoints of methods
+     ------------------------
+     selectQuery => executeQuery()
+     nonSelectQuery => executeUpdate()
+     both select and nonSelect Query => execute()
+
+     SQLInjection
+     --------------------
+     users
+     username    		upwd
+     sachin           tendulkar
+     virat              kohli
+
+     eg: "select count(*) from users where username ='"+uname+"' and upwd =' "+upwd+"'";
+     username = 'sachin'
+     password = 'tendulkar'
+
+     Query nature
+     "select count(*) from users where username ='sachin' and upwd =' tendulkar' ";
+     validation is succesful and given the authentication
+
+     eg: "select count(*) from users where username ='"+uname+"' and upwd =' "+upwd+"'";
+     username = 'sachin'--
+     password = 'tendulkar'
+
+     Query nature
+     select count(*) from users where username ='sachin'-- and upwd ='tendulkar' ";
+
+     Note: validation is successful and given the authentication
+
+     1. -- Single line sql comment
+     2. Multiline sql comment is same as java multiline comments
+
+     If we use Statement Object to send the Query, then the problem of SQLInjection will happen.
+
+     eg: Statement stmt = con.createStatement();
+           String query = "select count(*) from users where username ='"+uname+"'" and upwd =' "+upwd+"'";
+           ResultSet resultSet =stmt.executeQuery(query);
+                |
+                |
+                DB: select count(*) from users where username ='"+sachin -- "';
+                |
+                count(*) = 1 (validation is successful give authentication)
+
+     if we use PreparedStatement Object to send the Query, then the problem of SQLInjection will not happen.
+     eg: String query = "select count(*) from users where username =? and upwd =?";
+     PreparedStatement pstmt = con.prepareStatement(query);
+     pstmt.setString(1,"sachin--");
+     pstmt.setString(2,"tendulkar");
+           ResultSet resultSet =pstmt.executeQuery();
+            |
+            | for compilation using PreparedStatement
+            |
+             DB: select count(*) from users where username =? and upwd =?;
+            |
+            |
+        select count(*) from users where username ='sachin'--' and upwd ='tendulkar';
+            |
+        count(*) => 0 (validation not successful so no authentication)
+
+     Note: In real time database used in production environment is "Oracle", only during development phase we
+       use "MySQL" database.
+       In MySQLDatabase, we can't perform "SQLInjection" through comments,it happens only in "OracleDatabase".
+     eg:
+       select * from users where userid = 1; (1 record will be pulled)
+       select * from users where userid=  1 or 1=1;(All records in the table will be pulled)
+
+    */
+
+    public void jdbc2(){
+
+            //loading and registering driver is optional
+            try {
+                Connection connectObj = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_schema", "root", "root");
+                System.out.println("Connection successful : " + connectObj);
+
+                PreparedStatement pstatementObj = connectObj.prepareStatement("SELECT * FROM studenttemp WHERE studentid=?");
+                pstatementObj.setInt(1, 506);
+                ResultSet resultsetObj = pstatementObj.executeQuery();
+                while (resultsetObj.next()) {
+                    System.out.println(resultsetObj.getInt(1) + " " + resultsetObj.getString(2));
+                }
+                connectObj.close();
+                pstatementObj.close();
+            }
+            catch(SQLException e) {
+                e.printStackTrace();
+            }
+
+    }
+
+}
