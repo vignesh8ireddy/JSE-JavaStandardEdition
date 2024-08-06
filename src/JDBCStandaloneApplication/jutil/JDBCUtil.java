@@ -1,5 +1,8 @@
 package JDBCStandaloneApplication.jutil;
 
+import com.zaxxer.hikari.HikariConfig;
+import com.zaxxer.hikari.HikariDataSource;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Connection;
@@ -22,6 +25,7 @@ public class JDBCUtil {
     }
 
     public static Connection getConnection() throws SQLException, IOException {
+        /* Instead of making physical connection like below code, use hikaricp to make logical connection
         FileInputStream fisObj = new FileInputStream("src\\JDBCStandaloneApplication\\properties\\db.properties");
         Properties properties = new Properties();
         properties.load(fisObj);
@@ -30,6 +34,13 @@ public class JDBCUtil {
         String user = properties.getProperty("user");
         String password = properties.getProperty("password");
         Connection conObj = DriverManager.getConnection(url,user,password);
+        return conObj;
+         */
+
+        //using hikaricp configuration for connection pooling
+        HikariConfig configObj = new HikariConfig("src\\JDBCStandaloneApplication\\properties\\db.properties");
+        HikariDataSource dataSource = new HikariDataSource(configObj);
+        Connection conObj = dataSource.getConnection();
         return conObj;
     }
 

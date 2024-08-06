@@ -29,5 +29,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="HikariCP-3.4.5" level="project" />
   </component>
 </module>
