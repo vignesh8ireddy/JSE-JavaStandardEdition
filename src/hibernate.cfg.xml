@@ -11,7 +11,7 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/student_schema</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
-        <property name="hibernate.hbm2ddl.auto">create</property>
-        <mapping class="StandaloneHibernateProject.model.Employee"/>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <mapping resource="jpaHibernate11CustomGenerator/mapping/Employee.hbm.xml" />
     </session-factory>
 </hibernate-configuration>

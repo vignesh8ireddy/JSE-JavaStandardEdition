@@ -3,9 +3,7 @@
   <component name="FacetManager">
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map>
-          <unit-entry name="StandaloneHibernateProject:hibernate.cfg.xml" />
-        </datasource-map>
+        <datasource-map />
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
       </configuration>
@@ -41,6 +39,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" name="HikariCP-3.4.5" level="project" />
-    <orderEntry type="library" name="hiberante jars" level="project" />
+    <orderEntry type="library" name="hibernate jars" level="project" />
   </component>
 </module>

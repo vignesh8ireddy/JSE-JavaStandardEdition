@@ -5,13 +5,114 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e812262-b9b2-4b9c-af0f-a676da8f74ff" name="Changes" comment="Commit by Vignesh">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hiberante_jars.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StandaloneHibernateProject/main/TestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StandaloneHibernateProject/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/HikariCP_4_0_3_javadoc.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hibernate_jars.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kyle_photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_kyle2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate01Intro/configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate01Intro/main/TestApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate02CRUD/main/C01savexpersist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate02CRUD/main/C02getxload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate02CRUD/main/C03update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate02CRUD/main/C04loadandupdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate02CRUD/main/C05saveorupdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate02CRUD/main/C06merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate02CRUD/main/C07delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate02CRUD/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate02CRUD/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate03Synchronization/main/C01EntityToDbRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate03Synchronization/main/C02DbRowToEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate03Synchronization/mapping/Employee.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate03Synchronization/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate03Synchronization/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate04Generators/main/C01Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate04Generators/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate04Generators/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate05CompositeKey/main/C01compositekey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate05CompositeKey/model/ProgrammerProjectinfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate05CompositeKey/model/ProjectInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate05CompositeKey/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate06DateTime/main/C01datetime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate06DateTime/model/PersonInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate06DateTime/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate07Versioning/main/C01version.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate07Versioning/model/MobileCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate07Versioning/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate08TimeStamping/main/C01creationtimestamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate08TimeStamping/main/C02updationtimestamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate08TimeStamping/model/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate08TimeStamping/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate09Caching/caching.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate09Caching/main/L1CacheTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate09Caching/main/L1CacheTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate09Caching/main/L1CacheTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate09Caching/main/L2CacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate09Caching/model/InsurancePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate09Caching/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate10LOb/main/C01insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate10LOb/main/C02select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate10LOb/model/JobSeeker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate10LOb/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate11CustomGenerator/generator/RandomGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate11CustomGenerator/main/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate11CustomGenerator/mapping/Employee.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate11CustomGenerator/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate11CustomGenerator/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/hiberante_jars.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JSE_JavaStandardEdition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JSE_JavaStandardEdition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/000 JDK.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/000 JDK.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/001 JVM-Architecture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/001 JVM-Architecture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C00TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C00TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C01Literals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C01Literals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C02ClassBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C02ClassBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C03Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C03Constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C04ImmutableString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C04ImmutableString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C05KeywordStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C05KeywordStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C06StaticVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C06StaticVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C07KeywordFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C07KeywordFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C08MutableString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C08MutableString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C09Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C09Encapsulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C10Inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C10Inheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C11Polymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C11Polymorphism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C12Relations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C12Relations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C13Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C13Abstraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C14Packages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C14Packages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C15ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C15ExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C16ExceptionHandling2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C16ExceptionHandling2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C17ExceptionHandling3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C17ExceptionHandling3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C17F 002 throw vs throws_page-0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C17F 002 throw vs throws_page-0001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C17F 003 Exception Hierarchy_page-0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C17F 003 Exception Hierarchy_page-0001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C17F 004 Exception Handling Control flow 1_page-0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C17F 004 Exception Handling Control flow 1_page-0001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C17F 005 Exception Handling Control flow 2_page-0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C17F 005 Exception Handling Control flow 2_page-0001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C17F 006  Exception Handling Control flow 3_page-0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C17F 006  Exception Handling Control flow 3_page-0001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C17F 007 Exception Handling Control flow_page-0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C17F 007 Exception Handling Control flow_page-0001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C17F 008 Exception Handling Valid and Invalid syntax 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C17F 008 Exception Handling Valid and Invalid syntax 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C17F 009 Exception Handling Valid and Invalid syntax 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C17F 009 Exception Handling Valid and Invalid syntax 2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C18WrapperClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C18WrapperClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C19 010 Thread State diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C19 010 Thread State diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C19MultiThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C19MultiThreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C20 011 Collections-in-Java-768 (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C20 011 Collections-in-Java-768 (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C20 012 Collection Hierarchy Screenshot 2023-12-12 220719.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C20 012 Collection Hierarchy Screenshot 2023-12-12 220719.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C20 013 Collections Hierarchy 1_qgcrVwo8qzF4muOQ-kKB8A.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C20 013 Collections Hierarchy 1_qgcrVwo8qzF4muOQ-kKB8A.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C20 014 Collections Hierarchy Screenshot_71-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C20 014 Collections Hierarchy Screenshot_71-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C20 015 Map Screenshot 2023-12-22 040227.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C20 015 Map Screenshot 2023-12-22 040227.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C20 016 Screenshot 2023-12-21 121653.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C20 016 Screenshot 2023-12-21 121653.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C20Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C20Collections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C21Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C21Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C22FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C22FileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C23JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C23JDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C24JDBCdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C24JDBCdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C25JDBCBlob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C25JDBCBlob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C26JDBCClob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C26JDBCClob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C27JDBCConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C27JDBCConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C28JDBCTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C28JDBCTransactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUtil/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StandaloneHibernateProject/main/TestApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StandaloneHibernateProject/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpaHibernate01Intro/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,48 +149,80 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2jcfkoX4hqHd0vHg7J0pvq41HqG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.C00TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C06StaticVariables.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C08MutableString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C10Inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C11Polymorphism.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C12Relations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C15ExceptionHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C16ExceptionHandling2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C19MultiThreading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C21Generics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C23JDBC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C24JDBCdate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C25JDBCBlob.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C26JDBCClob.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C27JDBCConnectionPool.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/math/Documents/JSE_JavaStandardEdition/hiberante jars&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.C00TestMain.executor": "Run",
+    "Application.C01EntityToDbRow.executor": "Run",
+    "Application.C01Generator.executor": "Run",
+    "Application.C01compositekey.executor": "Run",
+    "Application.C01creationtimestamp.executor": "Run",
+    "Application.C01datetime.executor": "Run",
+    "Application.C01insert.executor": "Run",
+    "Application.C01persist.executor": "Run",
+    "Application.C01version.executor": "Run",
+    "Application.C02DbRowToEntity.executor": "Run",
+    "Application.C02get.executor": "Run",
+    "Application.C02getxload.executor": "Run",
+    "Application.C02select.executor": "Run",
+    "Application.C02updationtimestamp.executor": "Run",
+    "Application.C03load.executor": "Run",
+    "Application.C03update.executor": "Run",
+    "Application.C05KeywordStatic.executor": "Run",
+    "Application.C06StaticVariables.executor": "Run",
+    "Application.C07delete.executor": "Run",
+    "Application.C08MutableString.executor": "Run",
+    "Application.C10Inheritance.executor": "Run",
+    "Application.C11Polymorphism.executor": "Run",
+    "Application.C12Relations.executor": "Run",
+    "Application.C13Abstraction.executor": "Run",
+    "Application.C15ExceptionHandling.executor": "Run",
+    "Application.C16ExceptionHandling2.executor": "Run",
+    "Application.C19MultiThreading.executor": "Run",
+    "Application.C20Collections.executor": "Run",
+    "Application.C21Generics.executor": "Run",
+    "Application.C23JDBC.executor": "Run",
+    "Application.C24JDBCdate.executor": "Run",
+    "Application.C25JDBCBlob.executor": "Run",
+    "Application.C26JDBCClob.executor": "Run",
+    "Application.C27JDBCConnectionPool.executor": "Run",
+    "Application.CoreJava.C00TestMain.executor": "Run",
+    "Application.L1CacheTest1.executor": "Run",
+    "Application.L1CacheTest2.executor": "Run",
+    "Application.L1CacheTest3.executor": "Run",
+    "Application.L2CacheTest.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestApp.executor": "Run",
+    "Application.UpdateRecordApp.executor": "Run",
+    "Application.c04loadandupdate.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/math/Documents/JSE_JavaStandardEdition/hibernate jars",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\math\Documents\JSE_JavaStandardEdition\src\CoreJava" />
       <recent name="C:\Users\math\Documents\JSE_JavaStandardEdition\src" />
+      <recent name="C:\Users\math\Documents\JSE_JavaStandardEdition\src\StandaloneHibernateProject" />
     </key>
   </component>
   <component name="RunManager">
@@ -142,6 +275,8 @@
       <workItem from="1723003561381" duration="4496000" />
       <workItem from="1723008107086" duration="1625000" />
       <workItem from="1723045577142" duration="1978000" />
+      <workItem from="1725659605043" duration="1338000" />
+      <workItem from="1726161373793" duration="24406000" />
     </task>
     <task id="LOCAL-00001" summary="Commit by Vignesh">
       <option name="closed" value="true" />
@@ -223,13 +358,22 @@
       <option name="project" value="LOCAL" />
       <updated>1722985833532</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit by Vignesh">
+      <option name="closed" value="true" />
+      <created>1725659688824</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725659688824</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit by Vignesh" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit by Vignesh" />
   </component>
