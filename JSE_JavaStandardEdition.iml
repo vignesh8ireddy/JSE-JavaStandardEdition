@@ -38,7 +38,10 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" exported="" name="HikariCP-3.4.5" level="project" />
     <orderEntry type="library" name="hibernate jars" level="project" />
+    <orderEntry type="library" name="HikariCP-3.4.5" level="project" />
+    <orderEntry type="library" name="hikaricp jars" level="project" />
+    <orderEntry type="library" name="hibernate hikaricp jars" level="project" />
+    <orderEntry type="library" name="commons io jars" level="project" />
   </component>
 </module>
