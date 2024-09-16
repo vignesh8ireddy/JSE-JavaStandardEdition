@@ -26,8 +26,7 @@
         <!-- Maximum time that a connection is allowed to sit ideal in the pool -->
         <property name="hibernate.hikari.idleTimeout">30000</property>
 
-        <mapping class="jpaHibernate14BulkInsertion.model.InsurancePolicy"/>
-        <mapping class="jpaHibernate14BulkInsertion.model.PremiumInsurancePolicy"/>
+        <mapping class="jpaHibernate19StoredProcedure.model.InsurancePolicy"/>
 
     </session-factory>
 </hibernate-configuration>

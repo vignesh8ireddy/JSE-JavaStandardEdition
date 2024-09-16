@@ -5,47 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e812262-b9b2-4b9c-af0f-a676da8f74ff" name="Changes" comment="Commit by Vignesh">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_jars.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hibernate_hikaricp_jars.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hikaricp_jars.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons io jars/commons-io-2.16.1-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons io jars/commons-io-2.16.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons io jars/commons-io-2.16.1-test-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons io jars/commons-io-2.16.1-tests.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons io jars/commons-io-2.16.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate hikaricp jars/HikariCP-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate hikaricp jars/hibernate-hikaricp-5.3.26.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate hikaricp jars/slf4j-api-1.7.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hikaricp jars/HikariCP-3.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hikaricp jars/slf4j-api-2.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hikaricp jars/slf4j-simple-2.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate12ConnectionPool/main/LoadTestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate12ConnectionPool/model/InsurancePolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate12ConnectionPool/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate13BulkOperation/main/C01SelectRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate13BulkOperation/main/C02SelectRecord2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate13BulkOperation/main/C03DeleteRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate13BulkOperation/main/C04UpdateRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate13BulkOperation/mapping/Employee.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate13BulkOperation/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate13BulkOperation/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate14BulkInsertion/dao/InsurancePolicyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate14BulkInsertion/dao/InsurancePolicyDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate14BulkInsertion/main/TestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate14BulkInsertion/model/InsurancePolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate14BulkInsertion/model/PremiumInsurancePolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate14BulkInsertion/util/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/HikariCP_3_4_5.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/dao/InsurancePolicyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/dao/InsurancePolicyDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/main/TestApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/model/InsurancePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/model/PremiumInsurancePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate16NativeSQLQuery/main/TestApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate16NativeSQLQuery/model/InsurancePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate16NativeSQLQuery/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate17CriterionAPI/main/TestApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate17CriterionAPI/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate17CriterionAPI/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate18Pagination/main/TestApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate18Pagination/main/TestApp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate18Pagination/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate18Pagination/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate19StoredProcedure/dao/InsurancePolicyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate19StoredProcedure/dao/InsurancePolicyDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate19StoredProcedure/main/TestApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate19StoredProcedure/model/InsurancePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jpaHibernate19StoredProcedure/util/HibernateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HikariCP-3.4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSE_JavaStandardEdition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JSE_JavaStandardEdition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-io-2.16.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-io-2.16.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-io-2.16.1-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-io-2.16.1-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-io-2.16.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slf4j-api-2.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slf4j-simple-2.0.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,75 +71,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.C00TestMain.executor": "Run",
-    "Application.C01EntityToDbRow.executor": "Run",
-    "Application.C01Generator.executor": "Run",
-    "Application.C01compositekey.executor": "Run",
-    "Application.C01creationtimestamp.executor": "Run",
-    "Application.C01datetime.executor": "Run",
-    "Application.C01insert.executor": "Run",
-    "Application.C01persist.executor": "Run",
-    "Application.C01version.executor": "Run",
-    "Application.C02DbRowToEntity.executor": "Run",
-    "Application.C02get.executor": "Run",
-    "Application.C02getxload.executor": "Run",
-    "Application.C02select.executor": "Run",
-    "Application.C02updationtimestamp.executor": "Run",
-    "Application.C03load.executor": "Run",
-    "Application.C03update.executor": "Run",
-    "Application.C05KeywordStatic.executor": "Run",
-    "Application.C06StaticVariables.executor": "Run",
-    "Application.C07delete.executor": "Run",
-    "Application.C08MutableString.executor": "Run",
-    "Application.C10Inheritance.executor": "Run",
-    "Application.C11Polymorphism.executor": "Run",
-    "Application.C12Relations.executor": "Run",
-    "Application.C13Abstraction.executor": "Run",
-    "Application.C15ExceptionHandling.executor": "Run",
-    "Application.C16ExceptionHandling2.executor": "Run",
-    "Application.C19MultiThreading.executor": "Run",
-    "Application.C20Collections.executor": "Run",
-    "Application.C21Generics.executor": "Run",
-    "Application.C23JDBC.executor": "Run",
-    "Application.C24JDBCdate.executor": "Run",
-    "Application.C25JDBCBlob.executor": "Run",
-    "Application.C26JDBCClob.executor": "Run",
-    "Application.C27JDBCConnectionPool.executor": "Run",
-    "Application.CoreJava.C00TestMain.executor": "Debug",
-    "Application.DeleteRecord.executor": "Run",
-    "Application.L1CacheTest1.executor": "Run",
-    "Application.L1CacheTest2.executor": "Run",
-    "Application.L1CacheTest3.executor": "Run",
-    "Application.L2CacheTest.executor": "Run",
-    "Application.LoadTestApp.executor": "Run",
-    "Application.SelectRecord.executor": "Run",
-    "Application.SelectRecord2.executor": "Run",
-    "Application.SelectRecordApp.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestApp.executor": "Run",
-    "Application.UpdateRecord.executor": "Run",
-    "Application.UpdateRecordApp.executor": "Run",
-    "Application.c04loadandupdate.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/math/Documents/JSE_JavaStandardEdition/hikaricp jars",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.C00TestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C01EntityToDbRow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C01Generator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C01compositekey.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C01creationtimestamp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C01datetime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C01insert.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C01persist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C01version.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C02DbRowToEntity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C02get.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C02getxload.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C02select.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C02updationtimestamp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C03load.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C03update.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C05KeywordStatic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C06StaticVariables.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C07delete.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C08MutableString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C10Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C11Polymorphism.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C12Relations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C13Abstraction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C15ExceptionHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C16ExceptionHandling2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C19MultiThreading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C20Collections.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C21Generics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C23JDBC.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C24JDBCdate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C25JDBCBlob.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C26JDBCClob.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C27JDBCConnectionPool.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoreJava.C00TestMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DeleteRecord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L1CacheTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L1CacheTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L1CacheTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.L2CacheTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoadTestApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectRecord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectRecord2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectRecordApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UpdateRecord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UpdateRecordApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.c04loadandupdate.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/math/Documents/JSE_JavaStandardEdition/hikaricp jars&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\math\Documents\JSE_JavaStandardEdition\src\CoreJava" />
@@ -225,7 +206,8 @@
       <workItem from="1725659605043" duration="1338000" />
       <workItem from="1726161373793" duration="24720000" />
       <workItem from="1726286862345" duration="3957000" />
-      <workItem from="1726327629523" duration="6489000" />
+      <workItem from="1726327629523" duration="6806000" />
+      <workItem from="1726523019227" duration="3020000" />
     </task>
     <task id="LOCAL-00001" summary="Commit by Vignesh">
       <option name="closed" value="true" />
@@ -323,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726186316035</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commit by Vignesh">
+      <option name="closed" value="true" />
+      <created>1726334480844</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726334480844</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
