@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e812262-b9b2-4b9c-af0f-a676da8f74ff" name="Changes" comment="Commit by Vignesh">
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/dao/InsurancePolicyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/dao/InsurancePolicyDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/main/TestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/model/InsurancePolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/model/PremiumInsurancePolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate15NamedHQLQuery/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate16NativeSQLQuery/main/TestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate16NativeSQLQuery/model/InsurancePolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate16NativeSQLQuery/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate17CriterionAPI/main/TestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate17CriterionAPI/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate17CriterionAPI/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate18Pagination/main/TestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate18Pagination/main/TestApp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate18Pagination/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate18Pagination/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate19StoredProcedure/dao/InsurancePolicyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate19StoredProcedure/dao/InsurancePolicyDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate19StoredProcedure/main/TestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate19StoredProcedure/model/InsurancePolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpaHibernate19StoredProcedure/util/HibernateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +185,10 @@
       <workItem from="1726161373793" duration="24720000" />
       <workItem from="1726286862345" duration="3957000" />
       <workItem from="1726327629523" duration="6806000" />
-      <workItem from="1726523019227" duration="3020000" />
+      <workItem from="1726523019227" duration="3148000" />
+      <workItem from="1726526556544" duration="12000" />
+      <workItem from="1726530308338" duration="1018000" />
+      <workItem from="1726534624974" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="Commit by Vignesh">
       <option name="closed" value="true" />
@@ -313,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726334480844</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Commit by Vignesh">
+      <option name="closed" value="true" />
+      <created>1726526186445</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726526186445</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
