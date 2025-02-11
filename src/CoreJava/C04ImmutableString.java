@@ -35,7 +35,7 @@ public class C04ImmutableString {
         System.out.println(s1==s3);//false
         System.out.println(s1.equals(s2));//true
         System.out.println(s1.equalsIgnoreCase(s3));//true
-        System.out.println(s1.compareTo(s4));// int(n)-int(N)=32 i.e returns an interger
+        System.out.println(s1.compareTo(s4));// int(n)-int(N)=32 i.e returns an integer
         String s5=s1.concat("think");//strings are immutable s1 is not changed
         System.out.println(s5);//newsthink
         System.out.println(s1);

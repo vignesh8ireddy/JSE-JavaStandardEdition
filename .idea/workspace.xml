@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e812262-b9b2-4b9c-af0f-a676da8f74ff" name="Changes" comment="Commit by Vignesh">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoreJava/C03Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C03Constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoreJava/C04ImmutableString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/C04ImmutableString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,75 +53,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.C00TestMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C01EntityToDbRow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C01Generator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C01compositekey.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C01creationtimestamp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C01datetime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C01insert.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C01persist.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C01version.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C02DbRowToEntity.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C02get.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C02getxload.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C02select.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C02updationtimestamp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C03load.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C03update.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C05KeywordStatic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C06StaticVariables.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C07delete.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C08MutableString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C10Inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C11Polymorphism.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C12Relations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C13Abstraction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C15ExceptionHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C16ExceptionHandling2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C19MultiThreading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C20Collections.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C21Generics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C23JDBC.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C24JDBCdate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C25JDBCBlob.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C26JDBCClob.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C27JDBCConnectionPool.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CoreJava.C00TestMain.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DeleteRecord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L1CacheTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L1CacheTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L1CacheTest3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.L2CacheTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoadTestApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectRecord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectRecord2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectRecordApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UpdateRecord.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UpdateRecordApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.c04loadandupdate.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/math/Documents/JSE_JavaStandardEdition/hikaricp jars&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.C00TestMain.executor": "Run",
+    "Application.C01EntityToDbRow.executor": "Run",
+    "Application.C01Generator.executor": "Run",
+    "Application.C01compositekey.executor": "Run",
+    "Application.C01creationtimestamp.executor": "Run",
+    "Application.C01datetime.executor": "Run",
+    "Application.C01insert.executor": "Run",
+    "Application.C01persist.executor": "Run",
+    "Application.C01version.executor": "Run",
+    "Application.C02DbRowToEntity.executor": "Run",
+    "Application.C02get.executor": "Run",
+    "Application.C02getxload.executor": "Run",
+    "Application.C02select.executor": "Run",
+    "Application.C02updationtimestamp.executor": "Run",
+    "Application.C03load.executor": "Run",
+    "Application.C03update.executor": "Run",
+    "Application.C05KeywordStatic.executor": "Run",
+    "Application.C06StaticVariables.executor": "Run",
+    "Application.C07delete.executor": "Run",
+    "Application.C08MutableString.executor": "Run",
+    "Application.C10Inheritance.executor": "Run",
+    "Application.C11Polymorphism.executor": "Run",
+    "Application.C12Relations.executor": "Run",
+    "Application.C13Abstraction.executor": "Run",
+    "Application.C15ExceptionHandling.executor": "Run",
+    "Application.C16ExceptionHandling2.executor": "Run",
+    "Application.C19MultiThreading.executor": "Run",
+    "Application.C20Collections.executor": "Run",
+    "Application.C21Generics.executor": "Run",
+    "Application.C23JDBC.executor": "Run",
+    "Application.C24JDBCdate.executor": "Run",
+    "Application.C25JDBCBlob.executor": "Run",
+    "Application.C26JDBCClob.executor": "Run",
+    "Application.C27JDBCConnectionPool.executor": "Run",
+    "Application.CoreJava.C00TestMain.executor": "Debug",
+    "Application.DeleteRecord.executor": "Run",
+    "Application.L1CacheTest1.executor": "Run",
+    "Application.L1CacheTest2.executor": "Run",
+    "Application.L1CacheTest3.executor": "Run",
+    "Application.L2CacheTest.executor": "Run",
+    "Application.LoadTestApp.executor": "Run",
+    "Application.SelectRecord.executor": "Run",
+    "Application.SelectRecord2.executor": "Run",
+    "Application.SelectRecordApp.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestApp.executor": "Run",
+    "Application.UpdateRecord.executor": "Run",
+    "Application.UpdateRecordApp.executor": "Run",
+    "Application.c04loadandupdate.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/math/Documents/JSE_JavaStandardEdition",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\math\Documents\JSE_JavaStandardEdition\src\CoreJava" />
@@ -189,6 +193,7 @@
       <workItem from="1726526556544" duration="12000" />
       <workItem from="1726530308338" duration="1018000" />
       <workItem from="1726534624974" duration="19000" />
+      <workItem from="1739234573420" duration="6321000" />
     </task>
     <task id="LOCAL-00001" summary="Commit by Vignesh">
       <option name="closed" value="true" />

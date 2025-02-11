@@ -19,8 +19,6 @@ public class C03Constructor {
 
     //constructor chaining
     //this() must be the first stmt
-    //https://www.geeksforgeeks.org/constructor-chaining-java-examples/#
-
 
     C03Constructor(int data1){
         //this(data1, 88); constructor chaining
