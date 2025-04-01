@@ -1,5 +1,94 @@
 ## JSE - Java Standard Edition
 
+* Java is a very simple, high-level, secured, multithreaded, platform independent, object-oriented programming language.
+* Java is descendent of C and C++.
+* Java Features
+    * Simple
+    * Secure
+    * Robust
+    * Portable
+    * Architecture neutral
+    * Object Oriented
+    * Multithreaded
+    * High performance
+    * Distributed
+    * Dynamic
+* Based on it's features Java can be more precisely defined as, a high-level programming language which is simple,
+  secure, robust, portable, object-oriented, interpreted, byte coded, architectural-neutral (i.e platform independent),
+  garbage collected, multithreaded programming language with strongly typed exception handling mechanisms for developing
+  distributed, dynamically extensible applications.
+* Unlike others, Java technology is both platform and programming language
+    * Platform is software environment in which programs executed, JVM is the platform owned by Java.
+* Java Mirco Edition for developing Mobile Applications
+* Java Standard Edition for developing Standalone applications.
+* Java Enterprise Edition for developing Web Applications
+* Android was developed using Java and it had been primary language of Android for long time before Kotlin took its
+  place.
+* Platform Dependent: An application that is compiled in one operating system and cannot run in different OS.
+    * If an application's compiled code is able to run in different operating system then that application is platform
+      independent.
+    * Java is platform independent because compiled code of a java program can run in all Operating Systems.
+* Web Application - An application that resides in server and that is executed directly in server system via network
+  call and sending response back to client.
+    * Servlet to process request
+    * JSP to send response (outdated, instead send response as JSON objects via API)
+* Java is most preferred language for developing web applications because they must be platform independent i.e must run
+  in all operating systems irrespective of where it is compiled.
+* Java compiler generates bytecode and JVM translates it into machine language for any OS (Windows, Linux, iOS,..)
+  accordingly. C and C++ generates machine language directly for the current OS.
+* .java file has java source code developed by the programmers, .class file has byte code compiled by the java compiler,
+  C and C++ compilers generate .exe files directly.
+* Because JVM is available on all the OS, .class files are enough to run the programs in any OS. That's why the famous
+  Java's slogan has emerged - "Write Once, Run Anywhere".
+* Java Compiler is also OS independent because it takes .java file and generates .class file which are OS independent.
+* JVM is OS dependent obviously because it has to generate machine language specific to the OS by taking .class file.
+    * So, Java programs/applications are platform independent, Java Software itself is platform dependent.
+* Types of Java Software
+    * JDK (Java Development Kit): Contains Java Compiler and JVM, used for developing new applications and running them.
+    * JRE (Java Runtime Environment): Contains only JVM, used for running already developed applications.
+    * JDK is used in Development environment, JRE is used in Testing and Production environment.
+* JVM version < Java Compiler version leads to Unsupported Major_Minor exception
+    * Always, JVM version >= Java Compiler
+* Path environment variable - Used by OS to identify binary files (i.e .exe, .bat, .cmd,.. files)
+* Classpath environment variable - Used by Java compiler and JVM to identify Java library files (i.e .jar, .class files)
+* A java program elements
+    * Package
+        * class
+            * variables
+            * methods
+                * variables
+        * interface
+            * variables
+            * methods
+        * enum
+            * variables
+            * methods
+                * variables
+
+
+* Control Statements
+* Object Oriented Programming
+* JVM Architecture
+* Garbage Collection
+* String Handling
+* Wrapper Classes
+* Exception Handling
+* Multithreading
+* IOStreams (File IO)
+* Collection Framework
+* Reflection API
+* Inner Classes
+* Date, time and text format
+* Annotations
+
+
+* Enum is introduced in java 5 to create set of named constants for creating menu kind of items.
+
+* Java Vs C Vs C++ Vs C#
+
+
+
+
 * Data Types
   * Primitive Types
     * byte, short, int, long, float, double, char, boolean
@@ -11,7 +100,7 @@
   * char literals (unicode char literals, ascii values)
   * boolean literals (true, false)
   * String literals 
-
+* Operators
 * Four Basic types of class members:
   1. Data Variables: Declaration and Definition(=Declaration+initialisation)
   2. Blocks
@@ -381,3 +470,13 @@ In 2010, Oracle corporation acquired Sun Microsystems including java
 7. Stream API (java.util.stream)
 8. New Date & Time API
 9. Optional API
+
+* Java Keywords
+
+## Zephyr
+
+* Why is Java named after a coffee?
+* Why java doesn't have features like pointers, structure, union, operator overloading, multiple inheritance, etc.
+* Like C or C++ programs, Java programs are not directly executed by OS, then how they are executed?
+* JDK X JRE X JVM
+*
